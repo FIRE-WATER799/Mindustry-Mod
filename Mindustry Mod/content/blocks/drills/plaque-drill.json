@@ -1,0 +1,25 @@
+{
+	"name": "Plaque Drill",
+	"description": "Plaque Drill",
+	"type": "Drill",
+	"size": 3,
+	"tier": 4,
+	"drillTime": 100,
+  "requirements": [
+		{ "item": "copper", "amount": 500 },
+		{ "item": "titanium", "amount": 500 },
+		{ "item": "silicon", "amount": 750 },
+		{ "item": "lead", "amount": 1000 },
+		{ "item": "plaque", "amount": 350 },
+	],
+  "consumes": {
+		"power": 2.5,
+		"liquid": {
+			"liquid": "water", "amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"category": "production",
+	"research": "laser-drill"
+}

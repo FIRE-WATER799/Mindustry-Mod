@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Plaque",
+	"description": "A Youtube Plaque",
+	"hardness": 3,
+	"color": "00FFFF"
+}

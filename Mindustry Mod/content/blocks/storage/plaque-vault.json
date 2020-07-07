@@ -1,0 +1,16 @@
+{
+	"type": "Vault",
+	"name": "Plaque-Vault",
+	"description": "Plaque Vault",
+	"health": 2500,
+	"size": 3,
+	"hasItems": true,
+	"requirements": [
+		{ "item": "titanium", "amount": 2500 },
+		{ "item": "thorium", "amount": 2500 },
+		{ "item": "plaque", "amount": 1000 },
+	],
+	"itemCapacity": 5000,
+	"category": "effect",
+	"research": "vault"
+}

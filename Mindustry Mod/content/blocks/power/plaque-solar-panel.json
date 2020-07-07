@@ -1,0 +1,14 @@
+{
+  "type": "SolarGenerator",
+  "name": "Plaque-Solar-Panel",
+  "description": "Plaqur Solar Panel",
+  "powerProduction": 1.1,
+  "buildCostMultiplier": 1.2,
+  "requirements": [
+    { "item": "lead", "amount": 100 },
+    { "item": "silicon", "amount": 150 },
+    { "item": "plaque", "amount":  100}
+  ],
+  "category": "power",
+  "research": "solar-panel"
+}

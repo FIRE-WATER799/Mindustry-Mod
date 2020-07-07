@@ -1,0 +1,38 @@
+{
+    "type": "itemTurret",
+    "name": "Youtube Cannon",
+    "description": "Shoots overpowered Youtube Plaques at enemies.",
+    "targetAir": true,
+    "targetGround": true,
+    "health": 1000,
+    "size": 2,
+    "shootType": "BasicBulletType",
+    "inaccuracy": 1,
+    "reload": 15,
+    "shootCone": 40,
+    "rotateSpeed": 100,
+    "shots": 1,
+    "range": 100,
+    "ammo": {
+        "plaque": {
+	          "type": "BasicBulletType",
+            "speed": 12,
+            "damage": 500,
+            "bulletWidth": 25,
+            "bulletHeight": 40,
+            "shootEffect": "nuclearShockwave",
+            "smokeEffect": "shootBigSmoke",
+            "ammoMultiplier": 15,
+	          "bulletSprite": "youtube-cannon-plaque",
+        }
+    },
+    "requirements": [
+        { "item": "copper", "amount": 1000 },
+        { "item": "lead", "amount":
+        750},
+        { "item": "plaque", "amount": 500 },
+    ],
+    "category": "turret"
+    "research": "small-youtube-cannon"
+    "shootSound": "flak"
+}

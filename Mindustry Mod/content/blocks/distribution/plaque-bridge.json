@@ -1,0 +1,18 @@
+{
+	"name": "Plaque-Bridge",
+	"description": "Plaque-Bridge",
+	"type": "ExtendingItemBridge",
+	"health": 500,
+	"size": 1,
+	"range": 20.1,
+	"speed": 50,
+	"hasPower": false,
+	"bufferCapacity": 20,
+	"requirements": [
+		{ "item": "copper", "amount": 5 },
+    { "item": "lead", "amount": 5 },
+    { "item": "plaque", "amount": 4},
+	],
+	"category": "distribution",
+	"research": "phase-conveyor"
+}

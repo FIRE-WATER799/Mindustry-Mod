@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Plaque Ore",
+	"description": "A Youtube Plaque Ore",
+	"hardness": 3,
+	"color": "00FFFF"
+}

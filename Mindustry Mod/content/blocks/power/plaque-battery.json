@@ -1,0 +1,15 @@
+{
+	"type": "battery",
+	"name": "Plaque Battery",
+	"size": 2,
+	"health": 5000,
+	"category": "power",
+	"requirements": [
+		{"item": "lead", "amount": 2500},
+		{"item": "titanium", "amount": 1000},
+		{"item": "silicon", "amount": 500},
+		{"item": "plaque", "amount": 500}
+	],
+	"consumes": { "powerBuffered": 500000 },
+	"research": "battery-large"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "SolarGenerator",
+  "name": "Large-Plaque-Solar-Panel",
+  "description": "Large Iron Solar Panel",
+  "size": 3,
+  "powerProduction": 2.3,
+  "buildCostMultiplier": 1.2,
+  "requirements": [
+    { "item": "lead", "amount": 1000 },
+    { "item": "silicon", "amount": 350 },
+    { "item": "plaque", "amount":  300}
+  ],
+  "category": "power",
+  "research": "plaque-solar-panel"
+}

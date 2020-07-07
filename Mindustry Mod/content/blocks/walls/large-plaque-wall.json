@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "Large-Plaque-Wall",
+	"description": "Large-Plaque-Eall",
+	"health": 10000,
+	"size": 2,
+	"buildCostMultiplier": 7.5,
+	"requirements": [
+		{ "item": "plaque", "amount": 250 }
+	],
+	"research": "plaque-wall",
+	"category": "defense"
+}

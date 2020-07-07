@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "Plaque-Conveyor",
+	"description": "Plaque-Conveyor",
+	"requirements": [
+		{"item": "copper", "amount": 1},
+    {"item": "lead", "amount": 1},
+		{"item": "plaque", "amount": 2}
+	],
+	"category": "distribution",
+	"speed": 10,
+	"research": "armored-conveyor"
+}
