@@ -3,5 +3,5 @@ displayName: "Test"
 author: "FIRE"
 description: "This is my first mod."
 version: "0.4"
-minGameVersion: "104"
+minGameVersion: "144.1"
 dependencies: []
